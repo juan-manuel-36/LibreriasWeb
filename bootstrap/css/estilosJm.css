@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: 'Monterey';
+src: url('../fonts/Monterey.ttf');
+}
+body{
+  font-family: Remachine;
+  font-size:1.5em;
+}
+.logo{
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.encabezado{
+  background-color: #B793F9;
+  border-radius:0 0 10px 10px;
+}
+.container-logo{
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom:10px;
+
+}
+.foto-texto1{
+  height: 300px;
+  width: 100%;
+  margin-top: 68px;
+}
+
+
+
+.margin{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.redes{
+  padding-top: 120px;
+  text-align: right;
+  padding-bottom: 10px;
+}
+.redes a{
+  margin-left: 10px;
+}
+.custom-ul{
+
+  background-color: #D7EAAE;
+  padding-top:10px;
+  padding-bottom: 10px;
+padding-left: 65px;
+border-radius:10px 10px 0 0;
+}
+.custom-nav{
+  width: 70%;
+  background-color:#B793F9;
+padding-bottom: 20px;
+height:40px;
+  border-radius: 10px;
+
+}
+.custom-nav a{
+
+margin-top: 15px;
+   }
+.v-center{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+.separador-menu{
+  margin-top: 10px;
+}
+
+.custom-form{
+  width: 92%;
+}
+.cuerpo-principal{
+  background-color: #DFE3EE;
+
+}
+#id-boton{
+  padding-top: 20px;
+}
+#icono-comentario{
+  padding-top: 15px;
+  padding-right: 0px;
+}
+#icono-comentario img{
+  height:75px;
+}
+#icono-buscar{
+  height: 40px;
+
+}
+@media (min-width: 768px) and (max-width:1113px){
+  .redes{
+    padding-top: 60px;
+    text-align: right;
+  }
+  .custom-ul{
+
+    background-color: #D7EAAE;
+    padding-top:10px;
+    padding-bottom: 10px;
+  padding-left: 0px;
+  border-radius:10px 10px 0 0;
+
+
+  }
+  .custom-nav{
+    width: 50%;
+    background-color:#B793F9;
+  padding-bottom: 20px;
+  height:40px;
+    border-radius: 10px;
+  position:relative;
+  left:25%;
+
+  }
+  #icono-comentario img{
+    height:50px;
+  }
+}
+@media (max-width: 768px) {
+.custom-ul {
+margin-left: 0px;
+padding-left: 0px;
+}
+.custom-nav {
+width: 100%;
+}
+.foto-texto1{
+  height: 200px;
+  width: 100%;
+  margin-top: 68px;
+}
+#icono-comentario img{
+  height:20px;
+}
+.redes{
+  padding-top: 50px;
+  text-align: center;
+}
+}
+.logo{
+  height: 100px;
+  text-align: center;
+}
+}

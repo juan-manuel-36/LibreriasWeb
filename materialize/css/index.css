@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: 'RacingSansOne-Regular';
+src: url('../fonts/RacingSansOne-Regular.ttf');
+}
+h1,h2,h3,h4,h5{
+  font-family: RacingSansOne-Regular;
+}
+body{
+  background-image: url("../img/fondo1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: RacingSansOne-Regular;
+width: 100%;
+}
+@media (min-width: 0px)and (max-width:375px){
+  .custom-nav img{
+    height: 60px;
+position: relative;
+left:35%;
+  }
+  .custom-nav ul{
+  padding-bottom: 50px;
+position: relative;
+right: 10%;
+  }
+  #slogan p{
+  position: relative;
+  bottom: 80px;
+  left:20%;
+  }
+  .contenido-imagen img{
+    padding: 10px;
+  }
+  #pie-pagina{
+    padding-bottom:130px;
+
+  }
+}
+@media (min-width: 376px)and (max-width:600px){
+  .custom-nav img{
+    height: 70px;
+
+  }
+  .custom-nav i{
+    position: relative;
+    bottom: 8px;
+   left:6px;
+
+  }
+  .custom-nav ul{
+  padding-bottom: 50px;
+
+  }
+  #slogan p{
+  position: relative;
+  bottom: 80px;
+  }
+  .contenido-imagen img{
+    padding: 10px;
+  }
+  #pie-pagina{
+    padding-bottom:130px;
+
+  }
+}
+
+@media (min-width: 601px)and (max-width:800px){
+  .custom-nav img{
+    height: 100px;
+    padding-bottom:0px;
+    position: relative;
+    top: 30px;
+    padding-left: 40px;
+    left:35%;
+    padding-bottom: 10px;
+  }
+  .custom-nav i{
+    position: relative;
+    bottom: 12px;
+   right: 10px;
+  }
+  .custom-nav ul{
+  padding-bottom: 80px;
+  position: relative;
+  left: 90px;
+  }
+  #correccion-padding{
+    position: relative;
+    left:70%;
+  }
+
+  #slogan h2{
+  font-size: 2.0em;
+  position: relative;
+  bottom: 15px;
+  left:60%;
+  }
+  #slogan{
+    position: relative;
+    bottom:60px;
+  right: 0px;
+
+  }
+  .input-padding{
+  margin-top: 60px !important;
+  }
+  #pie-pagina{
+    padding-bottom:200px;
+
+  }
+  .input-padding{
+  margin-top: 60px !important;
+  }
+
+}
+@media (min-width: 801px)and (max-width:1024px){
+  .custom-nav img{
+    height: 150px;
+    padding-bottom:0px;
+    position: relative;
+    top: 30px;
+    padding-left: 30px;
+    left:35%;
+  }
+  .custom-nav i{
+    position: relative;
+    bottom: 12px;
+   right: 10px;
+  }
+  .custom-nav ul{
+  padding-bottom: 80px;
+  position: relative;
+  right: 50px;
+  }
+  #slogan h2{
+  font-size: 2.5em;
+  position: relative;
+  bottom: 45px;
+  }
+  #slogan{
+    position: relative;
+    bottom:60px;
+  right: 0px;
+
+  }
+  .contenido-imagen img{
+    height: 200px;
+    float: left;
+  padding-left:10px;
+    margin: 120px 10px 5px 5px;
+  }
+
+  .input-padding{
+  margin-top: 60px !important;
+  }
+  #pie-pagina{
+    padding-bottom:200px;
+
+  }
+  #margen-titulo{
+    margin-left: 90px;
+    position: relative;
+    top:20px;
+    right:90px;
+  }
+}
+@media (min-width: 1025px)and (max-width:1113px){
+  .custom-nav img{
+    height: 150px;
+    padding-bottom:0px;
+    position: relative;
+    top: 30px;
+    padding-left: 30px;
+    left:35%;
+  }
+  .custom-nav i{
+    position: relative;
+    bottom: 12px;
+   right: 10px;
+  }
+  .custom-nav ul{
+  padding-bottom: 80px;
+  position: relative;
+  right: 80px;
+  }
+  #slogan h2{
+  font-size: 2.5em;
+  position: relative;
+  bottom: 45px;
+  }
+  #slogan{
+    position: relative;
+    bottom:60px;
+  right: 0px;
+
+  }
+  .contenido-imagen img{
+    height: 200px;
+    float: left;
+  padding-left:10px;
+    margin: 120px 10px 5px 5px;
+  }
+
+  .input-padding{
+  margin-top: 60px !important;
+  }
+  #pie-pagina{
+    padding-bottom:200px;
+
+  }
+  #margen-titulo{
+    margin-left:190px;
+    position: relative;
+    top:20px;
+    right:190px;
+  }
+}
+@media (min-width: 1114px) {
+  .custom-nav img{
+    height: 180px;
+    padding-bottom:0px;
+    position: relative;
+    top: 40px;
+    padding-left: 40px;
+  }
+  .custom-nav i{
+    position: relative;
+    bottom: 12px;
+   right: 10px;
+  }
+  .custom-nav ul{
+  padding-bottom: 100px;
+
+  }
+  #slogan p{
+  font-size: 1.5em;
+  position: relative;
+  bottom: 45px;
+  }
+  #slogan{
+    position: relative;
+    bottom:40px;
+  right: 20px;
+
+  }
+  .contenido-imagen img{
+    height: 200px;
+    float: left;
+  padding-left:10px;
+    margin: 120px 10px 5px 5px;
+  }
+
+  .input-padding{
+  margin-top: 60px !important;
+  }
+  #pie-pagina{
+    padding-bottom:200px;
+
+  }
+  #margen-titulo{
+    margin-left: 10px;
+  }
+}
+p{
+  padding: 10px 15px 10px 15px;
+}
+
+
+.imagen-izquierda{
+height: 400px;
+}
+.entrada-blog {
+  display: inline;
+}
+.imagen-centro{
+
+  height:300px;
+}
+.imagen-derecha{
+height: 600px;
+width: 600px;
+}
+[src|="img/i"]{
+    height: 60px;
+
+}
+.padding-central img{
+  padding: 10px 10px 4px 10px;
+
+}
+.padding-central{
+margin-bottom: 10px;
+border-radius: 10px;
+}
+.iconos-redes li{
+  padding-bottom:20px;
+}
+.fecha{
+  padding-right: 5px;
+
+}
+.fecha-opcion{
+background-color: #e1bee7;
+border-radius: 30px;
+padding: 10px ;
+
+}
+.comentario i{
+  position: relative;
+  top:5px;
+}
+
+.comentario{
+  padding: 30px 5px 30px 5px;
+
+}
+
+.contenido-imagen{
+margin-top: 30px;
+}
+.perfil-usuario img{
+  height: 200px;
+  padding:15px 0px 0px 0px;
+}
+.perfil-usuario{
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 28px;
+  border-radius: 10px;
+}
+.margen-izquierdo{
+  margin-left: 5px;
+  border-radius: 10px;
+}
+#slogan h2{
+  position: relative;
+  bottom: 60px;
+}
+
+#pie-pagina h5,#pie-pagina div{
+position: relative;
+bottom: 20px;
+padding: 0px 10px 0px 10px;
+}
+
+#icon-youtube img{
+  height:55px;
+  width: 60px;
+  border-radius: 20px;
+
+}
